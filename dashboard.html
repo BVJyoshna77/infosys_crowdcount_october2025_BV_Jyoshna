@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crowd Management Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="dashboard">
+    <aside class="sidebar">
+        <h2>Crowd Dashboard</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Crowd Analytics</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+        </ul>
+    </aside>
+    <main class="content">
+        <h1>Welcome, {{ username }}!</h1>
+        <div class="cards">
+            <div class="card">User Management</div>
+            <div class="card">Active Events</div>
+            <div class="card">Analytics Overview</div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
