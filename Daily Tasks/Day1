@@ -1,0 +1,113 @@
+
+#task 1 datatypes
+
+# 1. Numeric
+positive_int = 42
+negative_int = -42
+
+# Binary integer 
+binary_int = 0b101010 
+
+# Octal integer 
+octal_int = 0o52      
+
+# Hexadecimal integer
+hex_int = 0x2A        
+
+print("Integer values:")
+print("Positive integer:", positive_int)
+print("Negative integer:", negative_int)
+print("Binary integer:", binary_int)
+print("Octal integer:", octal_int)
+print("Hexadecimal integer:", hex_int)
+
+# 2. Float
+float_num = 3.14159
+print("\nFloat value:", float_num)
+
+# 3. Complex number
+complex_num = 4 + 3j
+print("\nComplex number:", complex_num)
+
+# 4. Boolean
+bool_true = True
+bool_false = False
+print("\nBoolean values:")
+print("True value:", bool_true)
+print("False value:", bool_false)
+//output
+Integer values:
+Positive integer: 42
+Negative integer: -42
+Binary integer: 42
+Octal integer: 42
+Hexadecimal integer: 42
+
+Float value: 3.14159
+
+Complex number: (4+3j)
+
+Boolean values:
+True value: True
+False value: False
+
+#task 2 arithmetic operators
+
+a = 15
+b = 4
+
+add = a + b         
+sub = a - b         
+mul = a * b         
+div = a / b         
+floor_div = a // b  
+mod = a % b         
+pow_exp = a ** b    
+
+print("Addition:", add)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
+print("Division:", div)
+print("Floor Division:", floor_div)
+print("Modulus:", mod)
+print("Exponentiation:", pow_exp)
+//output
+Addition: 19
+Subtraction: 11
+Multiplication: 60
+Division: 3.75
+Floor Division: 3
+Modulus: 3
+Exponentiation: 50625
+
+#task 3 string operators
+
+a = "Hello"
+b = "World"
+
+# 1. Concatenation 
+concat = a + " " + b 
+
+# 2. Repetition 
+repeat = a * 3  
+
+# 3. Indexing 
+first_char = a[0]    
+
+# 4. Slicing 
+slice_substring = a[1:4] 
+
+# 5. Membership (in)
+is_in = "e" in a      
+
+# 6. Membership (not in)
+not_in = "x" not in a 
+
+print("a =", a)
+print("b =", b)
+print("Concatenation: a + ' ' + b =", concat)
+print("Repetition: a * 3 =", repeat)
+print("Indexing: a[0] =", first_char)
+print("Slicing: a[1:4] =", slice_substring)
+print("'e' in a:", is_in)
+print("'x' not in a:", not_in)
